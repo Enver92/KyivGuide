@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_margin="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.kyivguide.HistoricalPlaces">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginBottom="8dp">
+
+        <ImageView
+            android:id="@+id/kostelImageView"
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="8dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/kostel"/>
+
+        <TextView
+            android:id="@+id/kostlTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="140dp"
+            android:gravity="center"
+            android:text="Kostel"
+            android:textColor="@android:color/black"
+            android:textSize="32dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginBottom="8dp">
+
+        <ImageView
+            android:id="@+id/maydanImageView"
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="8dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/kostel"/>
+
+        <TextView
+            android:id="@+id/maydanTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="140dp"
+            android:gravity="center"
+            android:text="Kostel"
+            android:textColor="@android:color/black"
+            android:textSize="32dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginBottom="8dp">
+
+        <ImageView
+            android:id="@+id/goldenGatesImageView"
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="8dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/kostel"/>
+
+        <TextView
+            android:id="@+id/goldenGatesTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="140dp"
+            android:gravity="center"
+            android:text="Kostel"
+            android:textColor="@android:color/black"
+            android:textSize="32dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.kyivguide.MainActivity"
+    android:background="#256F5C"
+    android:padding="8dp">
+
+    <!--Historical Places Layout-->
+    <TextView
+        android:layout_marginBottom="8dp"
+        android:id="@+id/historical_places"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/category_historical_places"
+        android:textSize="36dp"
+        android:textColor="#6FA698"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@drawable/kostel"/>
+
+    <!--Restaurants Layout-->
+    <TextView
+        android:layout_marginBottom="8dp"
+        android:id="@+id/restaurants"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/category_restaurants"
+        android:textSize="36dp"
+        android:textColor="#6FA698"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@drawable/kostel"/>
+
+    <!--Night Life Layout-->
+    <TextView
+        android:layout_marginBottom="8dp"
+        android:id="@+id/night_life"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/category_night_life"
+        android:textSize="36dp"
+        android:textColor="#6FA698"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@drawable/kostel"/>
+
+    <!--Museums Layout-->
+    <TextView
+        android:id="@+id/museums"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/category_museums"
+        android:textSize="36dp"
+        android:textColor="#6FA698"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@drawable/kostel"/>
+
+
+</LinearLayout>

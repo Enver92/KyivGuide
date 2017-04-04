@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_margin="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:background="#256F5C">
+
+    <!-- Place Image View -->
+    <ImageView
+        android:id="@+id/place_image"
+        android:layout_width="140dp"
+        android:layout_height="match_parent"
+        android:layout_marginRight="8dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"/>
+
+    <!-- Place Text View -->
+    <TextView
+        android:id="@+id/place_name"
+        android:layout_width="wrap_content"
+        android:layout_height="140dp"
+        android:gravity="center"
+        android:textColor="#6FA698"
+        android:textSize="26sp"/>
+
+</LinearLayout>
